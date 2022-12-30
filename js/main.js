@@ -92,3 +92,10 @@ sr.reveal(`.section-subtitle, .section-title, .section-description, .brand-img,.
 
 sr.reveal(`.about-imageContent, .menu-items`, {origin:'left'})
 sr.reveal(`.about-details, .time-table`, {origin:'right'})
+
+// ! Loader
+
+let loader = document.querySelector("#preloader");
+window.addEventListener("load", () =>{
+  loader.style.display = "none";
+})
